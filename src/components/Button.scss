@@ -1,0 +1,44 @@
+@import 'assets/scss/variables';
+
+.btn {
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 8px;
+  padding-right: 8px;
+  cursor: pointer;
+
+  &.btn-size-small {
+    font-size: 12px;
+    line-height: 13px;
+    height: 30px;
+  }
+
+  &.btn-size-medium {
+    height: 40px;
+    font-size: 12px;
+    line-height: 13px;
+  }
+
+  &.btn-contained {
+    background-color: $color-primary;
+    color: $color-white;
+  }
+
+  &.btn-outlined {
+    background-color: transparent;
+    border: solid 1px $color-border;
+    color: $color-primary;
+  }
+
+  &.btn-soft {
+    background-color: $color-soft;
+    color: $color-white;
+  }
+
+  &.btn-full {
+    width: 100%;
+  }
+}

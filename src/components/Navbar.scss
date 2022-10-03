@@ -1,0 +1,16 @@
+@import 'assets/scss/variables';
+
+.navbar-container {
+  background-color: $color-primary;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .navbar-title {
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 700;
+    color: $color-white;
+  }
+}

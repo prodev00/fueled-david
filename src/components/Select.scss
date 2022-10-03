@@ -1,0 +1,43 @@
+@import 'assets/scss/variables';
+
+.popper-reference {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  height: 40px;
+  border: solid 1px $color-border;
+  cursor: pointer;
+  width: 100%;
+  max-width: 271px;
+  border-radius: 4px;
+  font-size: 14px;
+
+  &.full-width {
+    max-width: 100%;
+  }
+
+  .arrow-wrapper {
+    color: $color-primary;
+  }
+}
+
+.popper-element {
+  margin-top: 4px;
+  border: solid 1px $color-border;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: $color-white;
+  font-size: 14px;
+
+  .popper-option {
+    padding: 16px;
+    font-size: 14px;
+    border-bottom: solid 1px $color-border;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}

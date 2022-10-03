@@ -1,0 +1,41 @@
+@import 'assets/scss/variables';
+
+@media only screen and (min-width: 0px) {
+  @for $i from 1 through 12 {
+    .col-xs-#{$i} {
+      width: calc(100% / 12 * $i);
+    }
+  }
+}
+
+@media only screen and (min-width: $screen-sm) {
+  @for $i from 1 through 12 {
+    .col-sm-#{$i} {
+      width: calc(100% / 12 * $i);
+    }
+  }
+}
+
+@media only screen and (min-width: $screen-md) {
+  @for $i from 1 through 12 {
+    .col-md-#{$i} {
+      width: calc(100% / 12 * $i);
+    }
+  }
+}
+
+@media only screen and (min-width: $screen-lg) {
+  @for $i from 1 through 12 {
+    .col-lg-#{$i} {
+      width: calc(100% / 12 * $i);
+    }
+  }
+}
+
+@media only screen and (min-width: $screen-xl) {
+  @for $i from 1 through 12 {
+    .col-xl-#{$i} {
+      width: calc(100% / 12 * $i);
+    }
+  }
+}

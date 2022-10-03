@@ -1,0 +1,45 @@
+@import 'assets/scss/variables';
+
+.question-card {
+  padding: 24px;
+  box-shadow:0px 2px 4px rgba(0, 0, 0, 0.08);
+  background-color: $color-white;
+  margin-bottom: 32px;
+
+  .question-input {
+    label {
+      font-size: 12px;
+      margin-bottom: 16px;
+      width: 100%;
+      display: block;
+    }
+  }
+
+  .numbers {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 18px;
+    color: $color-grey;
+
+    .action-btns {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .action-btn {
+        margin-left: 4px;
+        width: 32px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+
+        &.trash {
+          color: $color-primary;
+        }
+      }
+    }
+  }
+}
